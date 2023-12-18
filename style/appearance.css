@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:rgb(254, 254, 50);
+}
+article{
+    background-color:rgb(254, 254, 50);
+}
+section{
+    border-color: yellow;
+}
+footer{
+    background-color: rgb(129, 167, 25);
+}
+.box1{
+   color: black;
+}
+#agree{
+    color: black;
+}
+aside{
+    background-color: rgb(254, 254, 50);
+}
+table{
+    background-color: rgb(60, 252, 252);
+}
+th{
+    border-color: black;
+}
+td{
+    border-color: black;
+}
+#sovet{
+    background-color: rgb(254, 254, 50);
+}
+.snowflake {
+    color: skyblue;
+    text-shadow: 0 0 1px #000;
+}

@@ -1,0 +1,299 @@
+.recept{
+    font-size: x-large;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+.box{
+    text-align: center;
+    font-size: x-large;
+}
+.box_2{
+    text-align: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+img{
+    height: 50vh;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+article{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vw;
+    text-align: center;
+    z-index: 2;
+}
+section{
+    height: 30vh;
+    border-width: 20px;
+    border-style:groove;
+    margin: 20px;
+    display: block;
+    justify-content: center;
+}
+footer{
+    height: 18vh;
+    width: auto;
+    text-align: center;
+}
+div{
+    display: flex;
+}
+aside{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
+}
+#recomend{
+    text-align: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+table{
+    height: 50vh;
+    width:auto;
+}
+th{
+   border-style: groove; 
+}
+td{
+    border-style: groove;
+}
+.soup{
+    height: 10vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    border-radius:50%;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+}
+p{
+    font-family: cursive;
+}
+#ccal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li{
+    font-family:cursive;
+    font-size: large;
+    float: left;
+}
+#inf{
+    height: 150vh;
+    width: auto;
+}
+#sovet{
+    height: 20vh;
+    width: auto;
+    font-family: cursive;
+}
+.pol_inf{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.gramm{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.police{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+#opros{
+    font-family: cursive;
+    font-size: large;
+}
+.soup_2{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+datalist{
+    font-size: large;
+    font-family: cursive;
+}
+h2{
+    text-decoration: underline;
+}
+.soup_3{
+    height: 8vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: 10px 7px 10px 3px;
+}
+.soup_0{
+    height: 15vh;
+    width: auto;
+    border-width: 20px;
+    border-style:groove;
+    display: block;
+    justify-content: center;
+    font-size: large;
+    font-family: cursive;
+}
+#name{
+    text-align: center;
+}
+#surname{
+    text-align: center;
+}
+#middle_name{
+    text-align: center;
+}
+#post{
+    text-align: center;
+}
+.set{
+    position: relative;
+    bottom: 1vh;
+}
+.set_2{
+    position: relative;
+    top: 2vh;
+}
+#dish{
+    display: flex;
+    position: relative;
+    top:3vh;
+    left: 30ch;
+    text-align: center;
+    font-family: cursive;
+}
+#agree{
+   font-size: large;
+   font-family: cursive;
+}
+.tabl{
+    height: 150vh;
+    width: 50vw;
+    border-width: 10px;
+    border-style:groove;
+}
+.new{
+    flex-direction: column;
+}
+.snowflake {
+    font-size: 2em;
+    font-family: Arial;
+}
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}
+}
+@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+}
+@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}
+}
+@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}
+}
+.snowflake{
+    position:fixed;
+    top:-10%;
+    z-index:1;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running
+}
+.snowflake:nth-of-type(1){
+    left:1%;
+    -webkit-animation-delay:0s,0s;
+    animation-delay:0s,0s
+}
+.snowflake:nth-of-type(2){
+    left:10%;
+    -webkit-animation-delay:1s,1s;
+    animation-delay:1s,1s
+}
+.snowflake:nth-of-type(3){
+    left:20%;
+    -webkit-animation-delay:6s,.5s;
+    animation-delay:6s,.5s
+}
+.snowflake:nth-of-type(4){
+    left:30%;
+    -webkit-animation-delay:4s,2s;
+    animation-delay:4s,2s
+}
+.snowflake:nth-of-type(5){
+    left:40%;
+    -webkit-animation-delay:2s,2s;
+    animation-delay:2s,2s
+}
+.snowflake:nth-of-type(6){
+    left:50%;
+    -webkit-animation-delay:8s,3s;
+    animation-delay:8s,3s
+}
+.snowflake:nth-of-type(7){
+    left:60%;
+    -webkit-animation-delay:6s,2s;
+    animation-delay:6s,2s
+}
+.snowflake:nth-of-type(8){
+    left:70%;
+    -webkit-animation-delay:2.5s,1s;
+    animation-delay:2.5s,1s
+}
+.snowflake:nth-of-type(9){
+    left:80%;
+    -webkit-animation-delay:1s,0s;
+    animation-delay:1s,0s
+}
+.snowflake:nth-of-type(10){
+    left:90%;
+    -webkit-animation-delay:3s,1.5s;
+    animation-delay:3s,1.5s
+}
+.tree{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    float: left;
+}
+.tree_2{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    float: right;
+}
